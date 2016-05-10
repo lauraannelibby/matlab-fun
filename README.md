@@ -1,7 +1,7 @@
 # matlab-fun
 MATLAB code from various projects and dalliances
 
-## [betascrub]()
+## [betascrub](https://github.com/lauraannelibby/matlab-fun/tree/master/betascrub)
 A handy little function to identify wonky single-trial beta images on the basis of unusual signal intensities in grey matter voxels. Applicable to single-trial estimates used in fMRI multivariate pattern analysis (classification, pattern similarity) and beta series correlation analysis, among others.
 * Expects a 4D file of whole-brain single-trial images (where time is the 4th dimension, as it should be) and a 3D mask image in the same space. Mask does not have to be binary, but function uses all voxels > 0 as the mask.
 * Outputs a vector containing bad trial numbers and plots histogram of mean GM absolute z scores (across trials). 
